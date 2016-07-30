@@ -1,0 +1,40 @@
+html, body, #main-container{
+    height: 100%;
+}
+.full-width{
+    width: 100%;
+    float: left;
+}
+body{
+    background: rgba(29,27,27,0.9);
+    background: -moz-linear-gradient(left, rgba(29,27,27,0.9) 0%, rgba(100,101,102,1) 50%, rgba(59,96,127,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(100,101,102,1)), color-stop(50%, rgba(28,53,95,1)), color-stop(100%, rgba(59,96,127,1)));
+    background: -webkit-linear-gradient(left, rgba(29,27,27,0.9) 0%, rgba(100,101,102,1) 50%, rgba(59,96,127,1) 100%);
+    background: -o-linear-gradient(left, rgba(29,27,27,0.9) 0%, rgba(100,101,102,1) 50%, rgba(59,96,127,1) 100%);
+    background: -ms-linear-gradient(left, rgba(29,27,27,0.9) 0%, rgba(100,101,102,1) 50%, rgba(59,96,127,1) 100%);
+    background: linear-gradient(to right, rgba(29,27,27,0.9) 0%, rgba(100,101,102,1) 50%, rgba(59,96,127,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c355f', endColorstr='#3b607f', GradientType=1 );
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+}
+body #main-container{
+    color: #fff;
+}
+body #main-container.with-img{
+    background: url('./img/background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.main-wrapper{
+     position: relative;
+     min-height: 100%;
+     height: auto;
+     float: left;
+     width: 100%;
+ }
+}
